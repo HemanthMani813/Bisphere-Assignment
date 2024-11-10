@@ -30,7 +30,7 @@ function Header() {
         <li><Link to="/testimonials">Testimonials</Link></li>
       </ul>
     </div>
-    <a className=" header_ btn btn-ghost text-xl">Brisphere</a>
+    <span className=" header_ btn btn-ghost text-xl">Brisphere</span>
     
   </div>
   <div className="navbar-center hidden lg:flex">
