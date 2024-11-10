@@ -1,0 +1,48 @@
+.services_page{
+    min-height: 100vh;
+
+    h2{
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-block: 20px;
+        text-align: center;
+    }
+}
+
+.service_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 12px;
+}
+
+.service_card{
+    padding: 18px;
+    /* background-color: blue; */
+    border-radius: 16px;
+    border: 2px solid chocolate;
+    width: 30%;
+    text-align: center;
+    margin: 12px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
+
+    h4{
+        font-size: larger;
+        font-weight: 600;
+        margin: 8px;
+    }
+
+    i{
+        font-size: xx-large;
+        margin-block: 10px;
+        /* margin-bottom: 16px; */
+    }
+
+}
+
+.service_card:hover{
+    transform: scale(1.05);
+    border: 3px double black;
+}

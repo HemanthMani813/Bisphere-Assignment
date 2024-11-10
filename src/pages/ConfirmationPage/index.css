@@ -1,0 +1,32 @@
+.conformation_page{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-message {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 8px;
+    color: #155724;
+    text-align: center;
+    box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+      0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+      0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+
+    
+    text-align: center;
+    border: 3px double black;
+
+
+    .tick{
+        text-align: center;
+        margin-left: 60px;
+
+    }
+  }
